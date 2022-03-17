@@ -1,15 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import "./styles/globals.scss"
-import Formulario from './components/Formulario'
-import Lista from './components/Lista'
+import Api from './components/ConsumirApi'
+
 
 
 
 ReactDOM.render(
-  <div className='container'>
-    <Formulario />
-    <Lista />
+  <div>
+    <Api/>
   </div>,
   document.getElementById('root')
 );
