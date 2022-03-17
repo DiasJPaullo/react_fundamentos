@@ -8,9 +8,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    .container1{
+    .container{
       display: flex;
       flex-direction: column;
+      justify-content: center;
       gap: 30px;
       align-items: center;
     }

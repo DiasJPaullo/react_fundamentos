@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import "./styles/globals.scss"
-import Api from './components/ConsumirApi'
+import Rotas from './routes'
+
 
 
 
 
 ReactDOM.render(
   <div>
-    <Api/>
+    <Rotas/>
   </div>,
   document.getElementById('root')
 );
