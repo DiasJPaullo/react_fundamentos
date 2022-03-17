@@ -1,15 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import "./styles/globals.scss"
-import Formulario from './components/Formulario'
-import Lista from './components/Lista'
-
+import App from './App';
+import PrimeiroComponente from './PrimeiroComponente';
 
 
 ReactDOM.render(
   <div className='container'>
-    <Formulario />
-    <Lista />
+    <PrimeiroComponente nome="React" ano={2022}/>
+    <App />
   </div>,
   document.getElementById('root')
 );
