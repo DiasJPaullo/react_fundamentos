@@ -1,19 +1,24 @@
-import {BrowserRouter, Routes, Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
 import Sobre from './pages/Sobre';
 import Contato from './pages/Contato';
+import Header from './components/Header';
+import Produto from './pages/Produto';
 
 
 
 const Rotas = () => {
   return(
-    <BrowserRouter>
+    <Router>
+      <Header/>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/sobre' element={<Sobre />} />
         <Route path='/contato' element={<Contato />} />
+        <Route path='/produto' element={<Produto />} />
+        <Route path='/produto/:id' element={<Produto />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   )
 }
 

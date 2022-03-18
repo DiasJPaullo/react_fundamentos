@@ -1,15 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import "./styles/globals.scss"
-import Rotas from './routes'
-
-
-
+import AppRoutes from './pages/App_Routes'
 
 
 ReactDOM.render(
   <div>
-    <Rotas/>
+   <AppRoutes/>
   </div>,
   document.getElementById('root')
 );

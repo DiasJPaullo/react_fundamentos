@@ -1,0 +1,27 @@
+.header{
+  height: 100px;
+  display: flex;
+  background-color: #146682;
+  .conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    .menu{
+      display: flex;
+      flex-wrap: wrap;
+      gap:20px;
+    }
+    a{
+      text-decoration: none;
+      color: inherit;
+      padding: 10px;
+      &:hover{
+        color: aqua;
+        text-decoration: overline;
+      }
+    }
+
+  }
+
+}

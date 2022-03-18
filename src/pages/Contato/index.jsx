@@ -1,5 +1,10 @@
+import { Contatos } from "../../styles/styles"
+
 export default function Contato(){
   return(
-    <h1>Contatos</h1>
+    <>
+      <Contatos>Contatos</Contatos>
+    </>
+
   )
 }
