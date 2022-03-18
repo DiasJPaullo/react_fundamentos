@@ -1,3 +1,5 @@
+// Documentação do Styled Components : https://styled-components.com/docs/basics
+
 import styled from 'styled-components';
 
 export const Contatos = styled.h1`

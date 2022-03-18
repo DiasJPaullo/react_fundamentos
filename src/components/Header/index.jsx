@@ -3,8 +3,8 @@ import styles from '../../styles/header.module.scss'
 
 export default function Header() {
   return (
-    <header className={styles.header}>
-      <div className="container">
+  <header className={styles.header}>
+      <div className={`container ${styles.main}`}>
         <section className= {styles.conteudo}>
           <h2>Header da Pagina</h2>
           <div className={styles.menu}>
